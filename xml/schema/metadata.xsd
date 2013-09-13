@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+
+<!-- Definition of simple types -->
+<xs:simpleType name="stringtype">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="250"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="longstringtype">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="1000"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="excerpttype">
+	<xs:restriction base="xs:string">
+		<xs:maxLength value="2000"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="numbertype">
+    <xs:restriction base="xs:long"/>
+</xs:simpleType>
+
+<!--this schema does not have a year type due to the irregularity of how years might be conveyed across syllabi -->
+
+<!-- Definition of ComplexType Elements -->
+<xs:element name="header_info">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="course_name" type="longstringtype"/>
+			<xs:element name="semester" type="stringtype"/>
+			<xs:element name="year" type="stringtype"/>
+			<xs:element name="instructor" type="longstringtype"/>
+			<xs:element name="discipline" type="stringtype"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="institution_location">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="city" type="stringtype"/>
+			<xs:element name="state" type="stringtype"/>
+			<xs:element name="country" type="stringtype"/>	
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="institution_info">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="institution_name" type="stringtype"/>
+			<xs:element name="institution_type" type="stringtype"/>
+			<xs:element name="institution_location"/> 
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="author">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="first_name" type="stringtype"/>
+			<xs:element name="middle_name" type="stringtype"/>
+			<xs:element name="last_name" type="longstringtype"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<!-- Definition of Root Node: Syllabi Metadata -->
+<xs:element name="syllabi_metadata">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="syllabus" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="syllabus">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="course_information"/>
+            <xs:element name="syllabus_content"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element> 
+
+<!-- Definition of Elements -->
+<xs:complexType name="course_information">
+	<xs:sequence>
+		<xs:element name="header_info"/>
+		<xs:element name="institution_info"/>
+		<xs:element name="first_page" type="excerpttype"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="syllabus_content">
+	<xs:sequence>
+		<xs:element name="author"/>
+		<xs:element name="text_title" type="longstringtype"/>
+		<xs:element name="text_edition" type="stringtype"/>
+		<xs:element name="publisher" type="stringtype"/>
+		<xs:element name="publication_year" type="stringtype"/>
+		<xs:element name="theme" type="longstringtype"/>
+	</xs:sequence>
+</xs:complexType>	
+  
+</xs:schema>
