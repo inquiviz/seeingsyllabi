@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<syllabi_metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="IVI-metadata-v.1.xsd">
+    <syllabus>
+        <course_information>
+            <header_info>
+                <course_name></course_name>
+                <semester></semester>
+                <year></year>
+                <instructor></instructor>
+                <discipline></discipline>
+            </header_info>
+            <institution_info>
+                <institution_name></institution_name>
+                <institution_type></institution_type>
+                <institution_location>
+                    <city></city>
+                    <state></state>
+                    <country></country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name></first_name>
+                <middle_name></middle_name>
+                <last_name></last_name>
+            </author>
+            <text_title></text_title>
+            <text_edition></text_edition>
+            <publisher></publisher>
+            <publication_year></publication_year>
+            <theme></theme>
+        </syllabus_content>
+    </syllabus>
+    
+    
+</syllabi_metadata>
