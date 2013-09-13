@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<syllabi_metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="IVI-metadata-v.1.xsd">
+    <syllabus>
+	<syllabus_id></syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>POLI 783(001): Statistics I</course_name>
+                <semester>Fall</semester>
+                <year>2013</year>
+                <instructor>Dr. Justin H. Gross</instructor>
+		<ta>Brice Acree</ta>
+                <discipline>POLI</discipline>
+		<course_number>783(001)</course_number>
+		<course_number>891(002)</course_number>
+            </header_info>
+            <institution_info>
+                <institution_name>Univeristy of North Carolina at Chapel Hill</institution_name>
+                <institution_type></institution_type>
+                <institution_location>
+                    <city>Chapel Hill</city>
+                    <state></state>
+                    <country></country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name></first_name>
+                <middle_name></middle_name>
+                <last_name></last_name>
+            </author>
+            <text_title></text_title>
+            <text_edition></text_edition>
+            <publisher></publisher>
+            <publication_year></publication_year>
+            <theme></theme>
+        </syllabus_content>
+    </syllabus>
+
+</syllabi_metadata>
