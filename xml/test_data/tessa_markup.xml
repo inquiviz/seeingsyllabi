@@ -1,0 +1,361 @@
+<syllabus>
+	<syllabus_id>syllabus2.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Quantitative Methods</course_name>
+                <semester>Fall</semester>
+                <year>2013</year>
+                <instructor>Melchi M. Michel</instructor>
+                <discipline>Psychology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Rutgers</institution_name>
+                <institution_type>RU/VH</institution_type>
+                <institution_location>
+                    <city>New Brunswick</city>
+                    <state>NJ</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>G.</first_name>
+                <middle_name>J.</middle_name>
+                <last_name>Privitera</last_name>
+            </author>
+            <text_title>Statistics for the Behavioral Sciences</text_title>
+            <text_edition></text_edition>
+            <publisher>Sage Publications</publisher>
+            <publication_year>2012</publication_year>
+            <theme>Quantitative and Formal Reasoning</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+	<syllabus_id>syllabus3.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Introduction to Anthropology</course_name>
+                <semester></semester>
+                <year></year>
+                <instructor>David Hartman</instructor>
+                <discipline>Anthropology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>College of Public Affairs and Community Service</institution_name>
+                <institution_type>17</institution_type>
+                <institution_location>
+                    <city>Denton</city>
+                    <state>TX</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>Conrad</first_name>
+                <middle_name></middle_name>
+                <last_name>Kottak</last_name>
+            </author>
+            <text_title>Anthropology: The Exploration of Human Diversity</text_title>
+            <text_edition>12</text_edition>
+            <publisher>McGraw-Hill</publisher>
+            <publication_year>2008</publication_year>
+            <theme>Evolution</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+	<syllabus_id>syllabus4.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Evolution</course_name>
+                <semester>Spring</semester>
+                <year></year>
+                <instructor>David Fitch</instructor>
+                <discipline>Biology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>New York University</institution_name>
+                <institution_type>15</institution_type>
+                <institution_location>
+                    <city>New York</city>
+                    <state>NY</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>Charles</first_name>
+                <middle_name></middle_name>
+                <last_name>Darwin</last_name>
+            </author>
+            <text_title>On the Origin of Species</text_title>
+            <text_edition>1</text_edition>
+            <publisher>Harvard University Press</publisher>
+            <publication_year>1859</publication_year>
+            <theme>Evolution</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+	<syllabus_id>syllabus5.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Introduction to Macroeconomic Theory</course_name>
+                <semester>Spring</semester>
+                <year>2013</year>
+                <instructor>G. Clare</instructor>
+                <discipline>Economics</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Rutgers University</institution_name>
+                <institution_type>15</institution_type>
+                <institution_location>
+                    <city>New Brunswick</city>
+                    <state>NJ</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>William</first_name>
+                <middle_name></middle_name>
+                <last_name>McEachern</last_name>
+            </author>
+            <text_title>Macro-Economic Analysis</text_title>
+            <text_edition></text_edition>
+            <publisher>Cengage Learning</publisher>
+            <publication_year>2011</publication_year>
+            <theme>Business Cycles</theme>
+	    <theme>Keynes</theme> 
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+	<syllabus_id>syllabus6.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Introduction to Sociology, Science of Modern Life</course_name>
+                <semester>Fall</semester>
+                <year>2009</year>
+                <instructor>Greggor Mattson</instructor>
+                <discipline>Sociology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Oberlin College</institution_name>
+                <institution_type>21</institution_type>
+                <institution_location>
+                    <city>Oberlin</city>
+                    <state>OH</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>Lisa</first_name>
+                <middle_name></middle_name>
+                <last_name>Belkin</last_name>
+            </author>
+            <text_title>The Baby Name Game: Motherlode Blog</text_title>
+            <text_edition></text_edition>
+            <publisher>The New York Times</publisher>
+            <publication_year>2008</publication_year>
+            <theme></theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+	<syllabus_id>syllabus7.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>English Composition</course_name>
+                <semester>Spring</semester>
+                <year>2009</year>
+                <instructor>Annie Gray</instructor>
+                <discipline>English</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Ivy Tech State College</institution_name>
+                <institution_type>2</institution_type>
+                <institution_location>
+                    <city>Bloomington</city>
+                    <state>IN</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>David</first_name>
+                <middle_name></middle_name>
+                <last_name>Rosenwasser</last_name>
+            </author>
+            <text_title>Writing Analytically</text_title>
+            <text_edition>6</text_edition>
+            <publisher>Cengage Learning</publisher>
+            <publication_year>2011</publication_year>
+            <author>
+                <first_name>Diana</first_name>
+                <middle_name></middle_name>
+                <last_name>Hacker</last_name>
+            </author> 
+            <text_title>A Pocket Style Manual</text_title>
+            <text_edition>5</text_edition>
+            <publisher>Bedford/St.Martins</publisher>
+            <publication_year>2010</publication_year> 
+            <theme>Composition</theme>
+	    <theme>Writing</theme>
+	    <theme>Rhetoric</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+        <syllabus_id>syllabus8.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>General Psychology</course_name>
+                <semester>Summer</semester>
+                <year>2013</year>
+                <instructor>Kathryn Jann</instructor>
+                <discipline>Psychology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name></institution_name>
+                <institution_type></institution_type>
+                <institution_location>
+                    <city></city>
+                    <state></state>
+                    <country></country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>Lynn</first_name>
+                <middle_name></middle_name>
+                <last_name>Lilienfeld</last_name>
+            </author>
+            <text_title>Psychology: From Inquiry to Understanding</text_title>
+            <text_edition>2</text_edition>
+            <publisher></publisher>
+            <publication_year></publication_year>
+            <theme>Human Development</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+        <syllabus_id>syllabus9.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Introduction to Comparative Literature</course_name>
+                <semester>Fall</semester>
+                <year>2001</year>
+                <instructor>Nicoletta Pireddu</instructor>
+                <discipline>Comparative Literature</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Georgetown</institution_name>
+                <institution_type>2</institution_type>
+                <institution_location>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>S.</first_name>
+                <middle_name></middle_name>
+                <last_name>Bassnett</last_name>
+            </author>
+            <text_title>Comparative Literature: A Critical Introduction</text_title>
+            <text_edition></text_edition>
+            <publisher>Blackwell</publisher>
+            <publication_year>1993</publication_year>
+            <theme>Linguistics</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+        <syllabus_id>syllabus10.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Introduction to Sociology</course_name>
+                <semester></semester>
+                <year></year>
+                <instructor>Rachel Ridnor</instructor>
+                <discipline>Sociology</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>Saddleback College</institution_name>
+                <institution_type>5</institution_type>
+                <institution_location>
+                    <city>Mission Viejo</city>
+                    <state>CA</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>John</first_name>
+                <middle_name>J.</middle_name>
+                <last_name>Macionis</last_name>
+            </author>
+            <text_title>Society: The Basics</text_title>
+            <text_edition>11</text_edition>
+            <publisher></publisher>
+            <publication_year>2010</publication_year>
+            <theme>Sexuality</theme>
+        </syllabus_content>
+    </syllabus>
+
+<syllabus>
+        <syllabus_id>syllabus11.pdf</syllabus_id>
+        <course_information>
+            <header_info>
+                <course_name>Intellectual History Since the Civil War</course_name>
+                <semester>Fall</semester>
+                <year>2007</year>
+                <instructor>Daniel Immerwahr</instructor>
+                <discipline>History</discipline>
+            </header_info>
+            <institution_info>
+                <institution_name>University of California-Berkeley</institution_name>
+                <institution_type>15</institution_type>
+                <institution_location>
+                    <city>Berkeley</city>
+                    <state>CA</state>
+                    <country>USA</country>
+                </institution_location>
+            </institution_info>
+            <first_page></first_page>
+        </course_information>
+        <syllabus_content>
+            <author>
+                <first_name>Ruth</first_name>
+                <middle_name></middle_name>
+                <last_name>Benedict</last_name>
+            </author>
+            <text_title>Patterns of Culture</text_title>
+            <text_edition></text_edition>
+            <publisher>Mariner Books</publisher>
+            <publication_year>1986</publication_year>
+            <theme>Race</theme>
+        </syllabus_content>
+    </syllabus>
