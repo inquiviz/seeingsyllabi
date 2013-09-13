@@ -3,6 +3,7 @@
 <syllabi_metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="metadata.xsd">
     <syllabus>
+        <syllabus_id></syllabus_id>
         <course_information>
             <header_info>
                 <course_name></course_name>
