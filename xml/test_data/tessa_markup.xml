@@ -135,7 +135,6 @@
             <publisher>Cengage Learning</publisher>
             <publication_year>2011</publication_year>
             <theme>Business Cycles</theme>
-	    <theme>Keynes</theme> 
         </syllabus_content>
     </syllabus>
 
@@ -170,7 +169,7 @@
             <text_edition></text_edition>
             <publisher>The New York Times</publisher>
             <publication_year>2008</publication_year>
-            <theme></theme>
+            <theme>Sociology</theme>
         </syllabus_content>
     </syllabus>
 
@@ -205,18 +204,7 @@
             <text_edition>6</text_edition>
             <publisher>Cengage Learning</publisher>
             <publication_year>2011</publication_year>
-            <author>
-                <first_name>Diana</first_name>
-                <middle_name></middle_name>
-                <last_name>Hacker</last_name>
-            </author> 
-            <text_title>A Pocket Style Manual</text_title>
-            <text_edition>5</text_edition>
-            <publisher>Bedford/St.Martins</publisher>
-            <publication_year>2010</publication_year> 
             <theme>Composition</theme>
-	    <theme>Writing</theme>
-	    <theme>Rhetoric</theme>
         </syllabus_content>
     </syllabus>
 
