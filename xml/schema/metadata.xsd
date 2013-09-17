@@ -69,6 +69,33 @@
 	</xs:complexType>
 </xs:element>
 
+<xs:element name="text">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="author"/>
+			<xs:element name="text_title" type="longstringtype"/>
+			<xs:element name="text_edition" type="stringtype"/>
+			<xs:element name="publisher" type="stringtype"/>
+			<xs:element name="publication_year" type="stringtype"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+	
+<xs:complexType name="course_information">
+	<xs:sequence>
+		<xs:element name="header_info"/>
+		<xs:element name="institution_info"/>
+		<xs:element name="first_page" type="excerpttype"/>
+	</xs:sequence>
+</xs:complexType>
+	
+<xs:complexType name="syllabus_content">
+	<xs:sequence>
+		<xs:element name="text" maxOccurs="unbounded"/>
+		<xs:element name="theme" type="longstringtype" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>	
+	
 <!-- Definition of Root Node: Syllabi Metadata -->
 <xs:element name="syllabi_metadata">
 	<xs:complexType>
@@ -81,31 +108,12 @@
 <xs:element name="syllabus">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="syllabus_id" type="stringtype"/>	
+            <xs:element name="syllabus_id" type="stringtype"/>
             <xs:element name="course_information"/>
             <xs:element name="syllabus_content" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 </xs:element> 
 
-<!-- Definition of Elements -->
-<xs:complexType name="course_information">
-	<xs:sequence>
-		<xs:element name="header_info"/>
-		<xs:element name="institution_info"/>
-		<xs:element name="first_page" type="excerpttype"/>
-	</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="syllabus_content">
-	<xs:sequence>
-		<xs:element name="author"/>
-		<xs:element name="text_title" type="longstringtype"/>
-		<xs:element name="text_edition" type="stringtype"/>
-		<xs:element name="publisher" type="stringtype"/>
-		<xs:element name="publication_year" type="stringtype"/>
-		<xs:element name="theme" type="longstringtype"/>
-	</xs:sequence>
-</xs:complexType>	
   
 </xs:schema>
