@@ -24,15 +24,17 @@
             <first_page></first_page>
         </course_information>
         <syllabus_content>
-            <author>
-                <first_name></first_name>
-                <middle_name></middle_name>
-                <last_name></last_name>
-            </author>
-            <text_title></text_title>
-            <text_edition></text_edition>
-            <publisher></publisher>
-            <publication_year></publication_year>
+            <text>
+                <author>
+                    <first_name></first_name>
+                    <middle_name></middle_name>
+                    <last_name></last_name>
+                </author>
+                <text_title></text_title>
+                <text_edition></text_edition>
+                <publisher></publisher>
+                <publication_year></publication_year>
+            </text>
             <theme></theme>
         </syllabus_content>
     </syllabus>
