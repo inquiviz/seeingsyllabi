@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <title>IVIMockup</title>
+  <meta charset="UTF-8">
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <p><strong>IVI: </strong>Inquire Visualize Innovate</p>
+    </div>
+    <div id="leftMenu">
+      <form>
+        <fieldset>
+          <legend>Search criteria {{box}}</legend>
+
+          <p>Author Name<br>
+          {{author}}</p>
+          <p>Title of text<br>
+          {{title}}</p>
+          <p>Text edition<br>
+          {{edition}}</p>
+          <p>Publisher<br>
+          {{publisher}}</p>
+          <p>Publishing year<br>
+          {{year}}</p>
+          <label>Institution</label> <select id="myList">
+            <option value="1">
+              UNC Chapel Hill
+            </option>
+
+            <option value="2">
+              UNC Wilmington
+            </option>
+
+            <option value="3">
+              UNC Charlotte
+            </option>
+
+            <option value="4">
+              Wake Tech Community College
+            </option>
+
+            <option value="4">
+              Harvard
+            </option>
+
+            <option value="4">
+              Brown
+            </option>
+
+            <option value="4">
+              Princeton
+            </option>
+          </select>
+
+          <p><label>Discipline(check all that apply)</label><br>
+          <input type="checkbox" id="chkeng" value="english"> <label for="chkeng">English</label><br>
+          <input type="checkbox" id="chkbio" value="biology"> <label for="chkbio">Biology</label><br>
+          <input type="checkbox" id="chkhis" value=""> <label for="chkhis">History</label><br>
+          <input type="checkbox" id="chkcomp" value="computerScience"> <label for="chkcomp">Computer Science</label><br>
+          <input type="checkbox" id="chkedu" value="education"> <label for="chkedu">Education</label></p>
+
+          <p><input type="reset"> <input type="submit"></p>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="content">
+      <div id="tabs">
+        <p>Results Table Viz Help</p>
+      </div>
+
+      <div id="results">
+        <p>Before a search is run, this area will contain introductory text and instructions on how to use the search feature and what to expect. Tabs above will allow the user to toggle between results in three formats: a Google-style list of ranked results, with each result linking to a syllubus; a table, displaying the presence or absence of the query elements in each relevant syllabus, also linked out of the actual documents; and an interactive visualization. The fourth will open the applications help feature</p>
+      </div>
+    </div>
+
+    <div id="footer">
+      The IVI PROJECT
+    </div>
+  </div>
+</body>
+</html>
