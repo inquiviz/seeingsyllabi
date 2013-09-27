@@ -4,7 +4,8 @@
 <head>
   <title>IVIMockup</title>
   <meta charset="UTF-8">
-  <link href="main.css" rel="stylesheet" type="text/css">
+
+  <link href="{{ STATIC_URL }}main.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -13,59 +14,9 @@
       <p><strong>IVI: </strong>Inquire Visualize Innovate</p>
     </div>
     <div id="leftMenu">
-      <form>
-        <fieldset>
-          <legend>Search criteria {{box}}</legend>
-
-          <p>Author Name<br>
-          {{author}}</p>
-          <p>Title of text<br>
-          {{title}}</p>
-          <p>Text edition<br>
-          {{edition}}</p>
-          <p>Publisher<br>
-          {{publisher}}</p>
-          <p>Publishing year<br>
-          {{year}}</p>
-          <label>Institution</label> <select id="myList">
-            <option value="1">
-              UNC Chapel Hill
-            </option>
-
-            <option value="2">
-              UNC Wilmington
-            </option>
-
-            <option value="3">
-              UNC Charlotte
-            </option>
-
-            <option value="4">
-              Wake Tech Community College
-            </option>
-
-            <option value="4">
-              Harvard
-            </option>
-
-            <option value="4">
-              Brown
-            </option>
-
-            <option value="4">
-              Princeton
-            </option>
-          </select>
-
-          <p><label>Discipline(check all that apply)</label><br>
-          <input type="checkbox" id="chkeng" value="english"> <label for="chkeng">English</label><br>
-          <input type="checkbox" id="chkbio" value="biology"> <label for="chkbio">Biology</label><br>
-          <input type="checkbox" id="chkhis" value=""> <label for="chkhis">History</label><br>
-          <input type="checkbox" id="chkcomp" value="computerScience"> <label for="chkcomp">Computer Science</label><br>
-          <input type="checkbox" id="chkedu" value="education"> <label for="chkedu">Education</label></p>
-
-          <p><input type="reset"> <input type="submit"></p>
-        </fieldset>
+      <form action="/contact/" method="post">{% csrf_token %}
+		{{ form }}
+		<input type="submit" value="Submit" />
       </form>
     </div>
 

@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import os.path
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -42,6 +43,9 @@ TEMPLATE_DIRS = (
     'C:/Users/bogorman/mysite/templates',
 )
 
+MEDIA_ROOT = os.path.join(os.path.dirname(__file__), "media") 
+MEDIA_URL = '/media/' 
+ADMIN_MEDIA_PREFIX = '/media/admin/'
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -82,5 +86,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
+STATICFILES_DIRS = (
+	"C:/Users/bogorman/mysite/static/mysite/",
+)
 
-STATIC_URL = '/static/'
+STATIC_URL = "/static/"
